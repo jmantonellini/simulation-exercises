@@ -2,10 +2,12 @@ package com.simulation.model.dto;
 
 import lombok.Data;
 
+import java.sql.Time;
+
 @Data
 public class ParametrosDTO {
 
-    private int diasDeOperacion;
+    private Time horasSimulacion;
     private int cantReposicion;
     private int nivelReposicion;
     private int diasParaReponer;
